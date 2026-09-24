@@ -1,8 +1,7 @@
 {
-  "name": "nexus-music-api",
+  "name": "nexus-api",
   "version": "1.0.0",
-  "private": true,
-  "scripts": {
-    "dev": "vercel dev"
+  "dependencies": {
+    "mongoose": "^8.0.0"
   }
 }
