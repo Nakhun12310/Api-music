@@ -12,7 +12,7 @@ async function connectDB() {
   if (!cached.promise) {
     const MONGODB_URI = process.env.MONGODB_URI;
     if (!MONGODB_URI) {
-      console.warn("MONGODB_URI is not set. Skipping database save.");
+      console.warn("MONGODB_URI is not set. Skipping database save");
       return null;
     }
     cached.promise = mongoose.connect(MONGODB_URI, {
